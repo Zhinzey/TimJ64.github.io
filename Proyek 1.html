@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<title>Diagram Kasus Korona Kab. Lumajang-Jember</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Proyek 1.css">
+
+<!--- Tambahan HEAD-->
+<!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+
+
+
+
+
+
+<body>
+
+<!-- Fixbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue">
+<div style="margin-right:60%">
+    <a class="w3-bar-item">Diagram Kasus Korona Kab. Lumajang-Jember</a>
+</div>
+<div style="margin-left:40%">
+<!--
+    <a href="file:///G:/FDterdahulu/ELECTRICALGRAPHER/Menu1.1.html" class="w3-bar-item w3-button">Home</a>
+    <a href="file:///G:/FDterdahulu/ELECTRICALGRAPHER/Menu1.1.1.html" class="w3-bar-item w3-button">Automation</a>
+    <a href="file:///G:/FDterdahulu/ELECTRICALGRAPHER/Menu1.1.2.html" class="w3-bar-item w3-button">Robotic</a>
+	-->
+    <a href="#pie_chart" class="w3-bar-item w3-button">Diagram Pie</a>
+    <a href="#pyr_chart" class="w3-bar-item w3-button">Diagram Piramida</a>
+  </div>
+</div>
+</div>
+
+<!-- Sidebar -->
+<div style="margin-top:3%">
+<div class="w3-sidebar w3-black w3-bar-block" style="width:12%">
+  <h3 class="w3-bar-item">Kabupaten</h3>
+  
+	<div class="w3-container">
+
+<!--<h2>Active Accordions</h2>
+<p>In this example we add the w3-red class to an active accordion (when the button is clicked on and the content is opened).</p>-->
+
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">Lumajang</button>
+<div id="Demo1" class="w3-hide w3-container">
+    <a href="#q1_2005" class="w3-bar-item w3-button">April</a>
+	<a href="#q2_2009" class="w3-bar-item w3-button">Mei</a>
+	<a href="#q3_2009" class="w3-bar-item w3-button">Juni</a>
+</div>
+
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">Jember</button>
+<div id="Demo2" class="w3-hide w3-container">
+    <a href="#q4_2009" class="w3-bar-item w3-button">April</a>
+	<a href="#q1_2010" class="w3-bar-item w3-button">Mei</a>
+	<a href="#q2_2010" class="w3-bar-item w3-button">Juni</a>
+</div>
+
+<!--
+<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">Beckhoff</button>
+<div id="Demo3" class="w3-hide w3-container">
+    <a href="#" class="w3-bar-item w3-button">(coming soon)</a>
+</div>
+
+<button onclick="myFunction('Demo4')" class="w3-button w3-block w3-black w3-left-align">Siemens</button>
+<div id="Demo4" class="w3-hide w3-container">
+    <a href="#" class="w3-bar-item w3-button">(coming soon)</a>
+</div>
+
+<button onclick="myFunction('Demo4')" class="w3-button w3-block w3-black w3-left-align">LG</button>
+<div id="Demo4" class="w3-hide w3-container">
+    <a href="#" class="w3-bar-item w3-button">(coming soon)</a>
+</div>
+-->
+
+
+</div>
+</div>
+</div>
+	
+  
+
+
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-light-blue", "w3-teal");
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace("w3-teal", "w3-light-blue");
+  }
+}
+</script>
+
+<!-- Page Content -->
+<div style="margin-left:12%">
+<div style="margin-top:3%">
+
+
+
+<div class="w3-center">
+<div class="w3-container w3-teal">
+  <h1>Diagram Kasus Korona di Kab Lumajang-Jember per Tanggal 21</h1>
+</div>
+</div>
+
+<!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1340px;margin-top:0px auto 0px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="korona1.jpg" alt="Covid-19"  title="Covid-19" />                </li>
+                <li><img src="korona2.jpg" alt="Tenaga Medis Covid-19"  title="Tenaga Medis Covid-19" />                </li>
+                <!--
+				<li><img src="images/s3.jpg" alt="Surabaya"  title="Surabaya" />                </li>
+				
+                <li><img src="images/s4.jpg" alt="Balai Kota Surabaya"  title="Balai Kota Surabaya" />                </li>
+                <li><img src="images/s5.jpg" alt="Gedung Pusat Robotika ITS"  title="Gedung Pusat Robotika ITS" />                </li>
+				-->
+            </ul>
+        </div>
+    </div>
+
+
+<div class="w3-container">
+<h2>Diagram berikut meliputi Jumlah Kasus Positif, PDP, ODP, OTG hingga ODR</h2>
+<!--
+<div class="w3-center">
+<img src="nxseries.jpg" alt="Car" style="width:30%">
+</div>
+-->
+
+<!---Tambahan Gabungan-->
+<div class="Penggabungan"> 
+
+
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+
+</div>
+<!---Tambahan--->
+<div id="wrapper">
+	<div id="header">
+		<!--<p id="txt_title">Global usage share of web browsers</p>-->
+		<!--<p id="txt_subtitle">Pure CSS3 experimental charts, no JavaScript &amp; zero image. Best viewed in Webkit browsers.</p>-->
+	</div>
+
+	<div id="q2_2010">
+	<div id="q1_2010">
+	<div id="q4_2009">
+	<div id="q3_2009">
+	<div id="q2_2009">
+	<div id="q1_2005">
+		<div id="labels">
+			<ul>
+				<li><span></span>ODR</li>
+				<li><span></span>OTG</li>
+				<li><span></span>ODP</li>
+				<li><span></span>PDP</li>
+				<li><span></span>Positif</li>
+			</ul>
+		</div>
+		<!--
+		<div id="pie_ico">Pie &raquo;</div>
+		<div id="pyr_ico">&laquo; Pyramid</div>
+		-->
+		<div id="percentage_wrapper">
+			<div id="percentage">
+				<ul>
+					<li><p>60.14%</p><p>61.79%</p><p>63.90%</p><p>67.02%</p><p>68.28%</p><p>89.68%</p></li>
+					<li><p>24.98%</p><p>24.56%</p><p>24.39%</p><p>23.28%</p><p>23.22%</p><p>6.83%</p></li>
+					<li><p>7.14%</p><p>6.03%</p><p>4.27%</p><p>3.08%</p><p>2.35%</p><p>0%</p></li>
+					<li><p>5.10%</p><p>4.91%</p><p>4.64%</p><p>4.35%</p><p>3.89%</p><p>2.36%</p></li>
+					<li><p>2.66%</p><p>2.73%</p><p>2.52%</p><p>2.29%</p><p>2.27%</p><p>1.15%</p></li>
+				</ul>
+			</div>
+		</div>
+		<div id="slider">
+			<div id="chart_holder">
+				<div id="pie_chart">
+					<ul>
+						<li id="c1_r"><p><span class="pie_left"></span></p></li> 	
+						<li id="c1_l"><p><span class="pie_right"></span></p></li>
+						<li id="c2_r"><p><span class="pie_left"></span></p></li> 	
+						<li id="c2_l"><p><span class="pie_right"></span></p></li>
+						<li id="c3_r"><p><span class="pie_left"></span></p></li> 	
+						<li id="c3_l"><p><span class="pie_right"></span></p></li>
+						<li id="c4_r"><p><span class="pie_left"></span></p></li> 	
+						<li id="c4_l"><p><span class="pie_right"></span></p></li>
+						<li id="c5_r"><p><span class="pie_left"></span></p></li> 	
+						<li id="c5_l"><p><span class="pie_right"></span></p></li>
+					</ul>
+				</div>
+				<div id="pyr_chart">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--
+		<div id="btn_panel">
+			<ul>
+				<li><a href="#q1_2005"><span>Q1</span><span>2005</span></a></li>
+				<li><a href="#q2_2009"><span>Q2</span><span>2009</span></a></li>
+				<li><a href="#q3_2009"><span>Q3</span><span>2009</span></a></li>
+				<li><a href="#q4_2009"><span>Q4</span><span>2009</span></a></li>
+				<li><a href="#q1_2010"><span>Q1</span><span>2010</span></a></li>
+				<li><a href="#q2_2010"><span>Q2</span><span>2010</span></a></li>
+			</ul>
+		</div>
+		-->
+	</div> <!--q1_2005-->
+	</div> <!--q2_2009-->
+	</div> <!--q3_2009-->
+	</div> <!--q4_2009-->
+	</div> <!--q1_2010-->
+	</div> <!--q2_2010-->
+	
+	
+	
+
+<!-------Batas Tambahan---->
+
+</div>
+
+
+
+
+</div>
+
+
+  <!-- Footer -->
+<div class="footer">
+      <div class="footer-logo">Oleh: Kelompok J64</div>
+      <div class="footer-list">
+      </div>
+    </div>
+	
+	
+</div>
+
+  
+  
+
+	
+<!--Footer Style-->
+
+
+
+	  
+	
+	  
+	  
+</body>
+</html>

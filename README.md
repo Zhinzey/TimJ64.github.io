@@ -1,7 +1,7 @@
 PROYEK TIM HTML & CSS
 DTS Programming 2020 Batch II 
 
-Anggota:
+Anggota Tim J64:
 1. yudhanugroho#4512
 2. Wildan A.Yahya J38
 3. JUSTIN#7232
